@@ -1,1 +1,1 @@
-Intentions to add all devops operations
+Intention to add all devops operations
