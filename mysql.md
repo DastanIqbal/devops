@@ -1,8 +1,20 @@
+#### ERROR 1819 (HY000): Your password does not satisfy the current policy requirements
+```
+$ sudo mysql -u root -p
+  show variables like 'validate_password%';
+  SET GLOBAL validate_password.special_char_count = 0;
+  ALTER USER 'root'@'localhost' IDENTIFIED BY 'password';u
+  FLUSH PRIVILEGES;
+  exit
+
+```
 #### MySQL Error: : 'Access denied for user 'root'@'localhost'
 ```
-ALTER USER 'root'@'localhost' IDENTIFIED BY 'erebor';
-FLUSH PRIVILEGES;
-exit
+$ sudo mysql -u root -p
+  ALTER USER 'root'@'localhost' IDENTIFIED BY 'erebor';
+  FLUSH PRIVILEGES;
+  exit
+$ mysql -u root -p
 ```
 
 
