@@ -1,4 +1,9 @@
-#### Rest Mysql Password
+#### Reset Mysql Password
+
+```
+$ sudo mysql_secure_installation
+```
+or
 
 ```
 $ sudo /etc/init.d/mysql stop
@@ -9,8 +14,3 @@ WHERE User = 'root';
 FLUSH PRIVILEGES;
 exit;
 ```
-
-```
-sudo mysql_secure_installation
-```
-
