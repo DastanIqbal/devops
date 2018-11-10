@@ -1,4 +1,4 @@
-### MySQL Error: : 'Access denied for user 'root'@'localhost'
+#### MySQL Error: : 'Access denied for user 'root'@'localhost'
 ```
 ALTER USER 'root'@'localhost' IDENTIFIED BY 'erebor';
 FLUSH PRIVILEGES;
