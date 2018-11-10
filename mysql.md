@@ -9,3 +9,8 @@ WHERE User = 'root';
 FLUSH PRIVILEGES;
 exit;
 ```
+
+```
+sudo mysql_secure_installation
+```
+
