@@ -72,3 +72,13 @@ docker save imagename > imagename.tar
 ```
 docker load --input imagename.tar
 ```
+
+### Error: requested access to the resource is denied
+```
+docker tag bb38976d03cf hubusername/imagename:tagname
+```
+
+```
+docker push hubusername/imagename
+```
+
