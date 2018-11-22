@@ -26,7 +26,14 @@ docker pull <image_name>
 
 ### Run contianer
 ```
-docker run -it alpine
+docker run -it alpine //foreground and interactive
+
+docker run -d -p 81:80 -v $PWD/src:/var/www --name="container_name" image_name //background
+```
+
+### Open bash in running container
+```
+docker exec -it <container id> /bin/bash
 ```
 
 ### List running containers
