@@ -88,4 +88,8 @@ docker tag bb38976d03cf hubusername/imagename:tagname
 ```
 docker push hubusername/imagename
 ```
+### Get docker IP/Inspect
+```
+docker inspect <container_name>
+```
 
