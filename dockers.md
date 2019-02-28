@@ -92,4 +92,15 @@ docker push hubusername/imagename
 ```
 docker inspect <container_name>
 ```
+### Errors
 
+##### ERROR: No container found for web_1
+```
+  docker-compose up
+```
+
+##### ERROR: for app Cannot create container for service app: Conflict. The container name "/app" is already in use by container
+```
+  docker ps -a
+  docker rm <container_id>
+```
